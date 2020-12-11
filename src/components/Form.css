@@ -1,0 +1,73 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 65px;
+  margin-right: 30px;
+}
+
+.form__header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form__input-items {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.form__input-labels {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+.form__input-label {
+  padding-top: 5px;
+  margin-bottom: 26px;
+}
+
+.form__input-label:last-child {
+  margin-bottom: 0;
+}
+
+.form__inputs {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  width: 180px;
+  height: 30px;
+  border-radius: 4px;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+
+.form__input:last-child {
+  margin-bottom: 0px;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__button {
+  width: 85px;
+  height: 40px;
+}
+
+.form__button-create {
+  background-color: #f25e6b;
+}
+
+.form__button-html {
+  background-color: #966bf2;
+}
+
+.form__button-json {
+  background-color: #b3d92b;
+}
